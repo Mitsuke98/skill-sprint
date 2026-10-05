@@ -1,0 +1,1971 @@
+{
+  "format": "skill-sprint-course",
+  "version": 1,
+  "group": {
+    "id": "seed-figma-kole",
+    "skill": "Figma",
+    "category": "Design",
+    "createdAt": 1790776000000,
+    "built": "import",
+    "sources": [
+      {
+        "kind": "channel",
+        "url": "https://www.youtube.com/@kolejain",
+        "id": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "title": "Kole Jain"
+      }
+    ],
+    "levels": [
+      {
+        "id": "m1",
+        "name": "Warm-up",
+        "goal": "Get a quick win and see the whole map before going deep.",
+        "challenge": "Open a blank Figma file. Screenshot one app you love, drop it on the canvas and label its zones (nav, hero text, stats, image) with sticky notes."
+      },
+      {
+        "id": "m2",
+        "name": "Foundations: type, colour, spacing",
+        "goal": "The rules behind every screen: type scale, colour roles, spacing grid and consistent components.",
+        "challenge": "Build a mini style sheet in Figma: a 5-step type scale (×1.25), a primary colour with hover/pressed/disabled shades, 4 neutral text greys, and set Nudge to 8px. Save them as styles or variables."
+      },
+      {
+        "id": "m3",
+        "name": "Components & layout",
+        "goal": "Turn rules into real sections: cards, chips, pricing, grids, bentos and alignment.",
+        "challenge": "Design one landing hero + a bento feature section. Every element aligns to two edges, chips use Auto Layout, nested radii follow outer − gap."
+      },
+      {
+        "id": "m4",
+        "name": "Product thinking",
+        "goal": "Stop making pretty screens; design flows, states and systems.",
+        "challenge": "Take your hero from Level 3 and design its empty, loading, error and success states as separate frames."
+      },
+      {
+        "id": "m5",
+        "name": "Dashboards & SaaS",
+        "goal": "Sidebars, tables, charts and the data-heavy UI you ship at work.",
+        "challenge": "Design a dashboard: sidebar (grouped links, settings at bottom), 3 KPI cards, one line chart with grid lines, and a table with right-aligned numbers and chips."
+      },
+      {
+        "id": "m6",
+        "name": "Mobile & desktop apps",
+        "goal": "Mobile patterns, gestures, bottom sheets and Apple-style desktop apps.",
+        "challenge": "Design 3 mobile screens: home with a 4-tab bottom bar (44px targets), a detail view with the tab bar hidden, and a bottom sheet."
+      },
+      {
+        "id": "m7",
+        "name": "Landing pages & redesigns",
+        "goal": "Watch him redesign real sites; learn the moves pros use to level a page up.",
+        "challenge": "Pick a weak website you know. Redesign its hero and one section using two moves from this level (e.g. break the box, real product image, bento, darker edges)."
+      },
+      {
+        "id": "m8",
+        "name": "Figma prototyping & motion",
+        "goal": "Hands-on Figma: Smart Animate, masks, springs, effects and micro-interactions.",
+        "challenge": "Prototype a button hover (mask + two text layers) and a sidebar hover with Smart Animate, spring stiffness ~550, damping ~40."
+      },
+      {
+        "id": "m9",
+        "name": "Present & ship",
+        "goal": "Present work like a pro and use AI to speed up the first draft.",
+        "challenge": "Present your dashboard from Level 5: skewed hero shot on a desaturated background, a zoomed-in detail crop, and a clickable prototype link."
+      },
+      {
+        "id": "bonus",
+        "name": "Bonus lap: career & extras",
+        "goal": "Off-Figma but useful: portfolio, pricing, case studies, UX teardowns, code and inspiration.",
+        "challenge": "Write a 5-line case study outline for the dashboard you built today: problem, users, flow, final design, what you'd improve.",
+        "bonus": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "fL1X2Mw6s3w",
+        "title": "Figma Update: Everything In Under 2 Minutes",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 64,
+        "level": "m1",
+        "kind": "hands-on",
+        "sum": "Multi-edit: change many similar layers at once.",
+        "pts": [
+          "Multi-edit lets you select repeated elements and edit them together as if editing one",
+          "Figma matches layers by name and position in the group",
+          "Edit the text of many objects at once",
+          "Shift+A applies Auto Layout across several frames",
+          "Use sections to limit which frames a multi-edit touches"
+        ],
+        "cards": [
+          {
+            "q": "What shortcut adds Auto Layout?",
+            "a": "Shift + A"
+          },
+          {
+            "q": "How do you stop multi-edit touching every frame?",
+            "a": "Put the frames you want in a Section; only frames in that section receive the change."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Mobile"
+        ],
+        "addedAt": 1790000000000
+      },
+      {
+        "id": "9WVt1CelBfg",
+        "title": "The stupid simple way to learn UI/UX design in 10 minutes",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 600,
+        "level": "m1",
+        "kind": "concept",
+        "sum": "His 28-day roadmap: train your eye, clone designs, then learn UI flavour and UX flows.",
+        "pts": [
+          "Most layouts break into the same four zones: navbar, main text, stats, image",
+          "Spacing creates grouping: subtext 8px from header, eyebrow 12px, buttons 32px away",
+          "Clone designs exactly instead of redesigning; you notice nav height, padding, card gaps",
+          "Hero layouts are limited: text left/right, full-screen image, or text above image",
+          "Content decides layout: features → bento grid, a bold statement → centred text with space",
+          "UI is flavour (warm, modern), UX is the journey (e.g. onboarding branching for teams vs individuals)",
+          "Restyle one layout in two flavours (friendly vs professional) to build taste",
+          "Plan: week 1 eye training with a swipe file, weeks 2–3 cloning, week 4 UI/UX thinking"
+        ],
+        "cards": [
+          {
+            "q": "Typical spacing: header → subtext, eyebrow, buttons?",
+            "a": "Subtext 8px, eyebrow 12px, buttons 32px away."
+          },
+          {
+            "q": "What's the fastest way to learn layout details?",
+            "a": "Clone real designs exactly, don't redesign them."
+          },
+          {
+            "q": "UI vs UX in one line each?",
+            "a": "UI = the flavour and styling. UX = the user's journey and flow."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "UX thinking",
+          "Components"
+        ],
+        "addedAt": 1790000000001
+      },
+      {
+        "id": "EcbgbKtOELY",
+        "title": "Every UI/UX Concept Explained in Under 10 Minutes",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 563,
+        "level": "m1",
+        "kind": "concept",
+        "sum": "The full map: signifiers, hierarchy, spacing, type, colour, dark mode, shadows, states, micro-interactions.",
+        "pts": [
+          "Signifiers and affordances: button states, active nav, hover and tooltips show what's clickable",
+          "Hierarchy via size, position and contrast; most important = top, bigger, bolder",
+          "Grids are guidelines; generous white space (e.g. 32px between items); 4-point grid",
+          "One sans-serif is enough; headers: letter-spacing −2 to −3%, line height 110–120%",
+          "Colour: one brand colour, lighten for backgrounds, darken for text; semantic blue/red/yellow/green",
+          "Dark mode: lower border contrast, desaturate chips, cards lighter than background",
+          "Shadows: low opacity, high blur. If the shadow is the first thing you notice, it's wrong",
+          "Buttons: width ≈ double the height in padding; states: default, hover, pressed, disabled, loading",
+          "Inputs need focus, error and warning states; image text needs a gradient or progressive blur overlay"
+        ],
+        "cards": [
+          {
+            "q": "Header letter-spacing and line-height?",
+            "a": "Letter-spacing −2% to −3%, line-height 110–120%."
+          },
+          {
+            "q": "How should cards sit on a dark-mode background?",
+            "a": "Cards slightly lighter than the background, with lower-contrast borders."
+          },
+          {
+            "q": "Button states you must design?",
+            "a": "Default, hover, pressed/active, disabled, often loading."
+          },
+          {
+            "q": "Shadow rule of thumb?",
+            "a": "Lower opacity, more blur. If you notice the shadow first, it's too strong."
+          }
+        ],
+        "concepts": [
+          "Interaction & states",
+          "Layout & spacing",
+          "Colour"
+        ],
+        "addedAt": 1790000000002
+      },
+      {
+        "id": "Lp6ey4AyDzA",
+        "title": "8 Web Design Hacks To ACTUALLY Make Your Designs Better",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 426,
+        "level": "m2",
+        "kind": "partial",
+        "sum": "Fast wins: 2 weights, 2 colours, fewer containers, one icon pack, muted colours.",
+        "pts": [
+          "Hierarchy with 2 font weights (at least one weight apart) and 2 text colours (secondary at 45–70% opacity)",
+          "Remove unnecessary containers and dividers; use more spacing instead",
+          "One consistent icon pack (e.g. Feather); larger icons can carry more detail",
+          "Prefer muted colours and off-white / bluish-black over pure saturated tones",
+          "Secondary buttons lose their background; filled buttons are for the primary CTA only",
+          "Display fonts (Unbounded, Cabinet Grotesk) as visual elements, 1–2 uses per page",
+          "Drop gradients/shadows that don't help; shadow opacity 15–20% instead of 25%",
+          "Preview on the real target screen, not a zoomed-out canvas"
+        ],
+        "cards": [
+          {
+            "q": "Secondary text colour opacity range?",
+            "a": "About 45–70% of the primary text colour."
+          },
+          {
+            "q": "Which buttons get a filled background?",
+            "a": "Only the primary CTA; secondary actions go ghost/outline."
+          },
+          {
+            "q": "Drop-shadow opacity he recommends?",
+            "a": "Around 15–20% instead of the default 25%."
+          }
+        ],
+        "concepts": [
+          "Colour",
+          "Components",
+          "Typography"
+        ],
+        "addedAt": 1790000000003
+      },
+      {
+        "id": "c1TvOcKdBVE",
+        "title": "The 8 UI/UX Cheat Codes for INSTANTLY Better Designs",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 486,
+        "level": "m2",
+        "kind": "partial",
+        "sum": "Precise Figma tricks: kerning, nested radius maths, corner smoothing, HSB palettes, 8px nudge.",
+        "pts": [
+          "Text above ~70–80px: letter-spacing −2 to −4%",
+          "Nested corners: inner radius = outer radius − gap (30px outer, 10px gap → 20px inner)",
+          "Turn iOS corner smoothing to max in Figma for softer corners",
+          "Build palettes in HSB: each darker step +~20 saturation, −~10 brightness, hue ~20 toward blue",
+          "Cards: remove redundant labels, group related items, stack by importance, add icons",
+          "Replace divider lines with spacing or subtle alternating row backgrounds",
+          "Set Figma's big nudge from 10px to 8px (Preferences → Nudge amount)",
+          "Swap pure black/white for tinted accent shades (e.g. Tailwind 50/950)"
+        ],
+        "cards": [
+          {
+            "q": "Outer radius 24, padding 8. Inner radius?",
+            "a": "16px (outer − gap)."
+          },
+          {
+            "q": "How to create darker palette steps in HSB?",
+            "a": "Saturation up ~20, brightness down ~10, nudge hue ~20 toward blue."
+          },
+          {
+            "q": "Where do you set 8px nudge?",
+            "a": "Figma Preferences → Nudge amount: big nudge 8."
+          }
+        ],
+        "concepts": [
+          "Colour",
+          "Layout & spacing",
+          "Typography"
+        ],
+        "addedAt": 1790000000004
+      },
+      {
+        "id": "7sUUzOCv47U",
+        "title": "Mathematically Perfect Typography for Web Design",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 750,
+        "level": "m2",
+        "kind": "concept",
+        "sum": "Type anatomy, font limits, golden-ratio type scales and line height.",
+        "pts": [
+          "Serif = authoritative/classic; sans-serif = modern/clean; display = giant ornamental text",
+          "Baseline, x-height and cap-height decide proportion and readability",
+          "Use 1–2 fonts; 3 needs a reason; 4+ hurts quality",
+          "Weight and colour both control hierarchy; lighter/thinner reads as less important",
+          "Golden ratio scale: body × 1.62 for headers",
+          "Tighter scales: √φ ≈ 1.27, or ∛φ ≈ 1.17 for dense interfaces",
+          "Fluid type scales smoothly with screen width without breakpoints",
+          "Paragraph line height ~150%; headings 110–130%"
+        ],
+        "cards": [
+          {
+            "q": "Golden-ratio multiplier for a type scale?",
+            "a": "1.62 (tighter options: 1.27 and 1.17)."
+          },
+          {
+            "q": "Line height for paragraphs vs headings?",
+            "a": "Paragraphs ~150%, headings 110–130%."
+          },
+          {
+            "q": "Maximum fonts before quality drops?",
+            "a": "1–2 is ideal; 3 needs justification."
+          }
+        ],
+        "concepts": [
+          "Typography",
+          "Colour"
+        ],
+        "addedAt": 1790000000005
+      },
+      {
+        "id": "EOcY3hPMQkk",
+        "title": "The 7 Color Mistakes that RUIN your UI Designs",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 438,
+        "level": "m2",
+        "kind": "concept",
+        "sum": "Colour roles, neutrals, dark mode and interaction-state colours.",
+        "pts": [
+          "60-30-10: 60% neutral, 30% secondary, 10% accent",
+          "Use colour to communicate status (active tab), not decoration",
+          "Keep backgrounds neutral greys, not bright colours",
+          "Adapt brand colours with analogous/complementary picks on the wheel",
+          "Replace pure black/white with dark/light greys",
+          "Build dark mode on purpose; don't just invert",
+          "Red only for destructive actions and critical alerts",
+          "Disabled: desaturated light grey + white text; hover slightly lighter; pressed slightly darker"
+        ],
+        "cards": [
+          {
+            "q": "What is the 60-30-10 rule?",
+            "a": "60% neutral, 30% secondary, 10% accent colour."
+          },
+          {
+            "q": "Hover vs pressed colour?",
+            "a": "Hover: slightly lighter/brighter. Pressed: slightly darker."
+          },
+          {
+            "q": "When is red allowed?",
+            "a": "Destructive actions and critical notifications."
+          }
+        ],
+        "concepts": [
+          "Colour",
+          "Interaction & states"
+        ],
+        "addedAt": 1790000000006
+      },
+      {
+        "id": "66oOi9OLMCw",
+        "title": "Why the 60-30-10 Rule is RUINING Your UI Designs",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 398,
+        "level": "m2",
+        "kind": "partial",
+        "sum": "The pro upgrade to 60-30-10: a 4-layer colour system with neutrals, scales, semantics and theming.",
+        "pts": [
+          "Layer 1 neutrals: ~4 background layers, 1–2 strokes, 3 text greys; backgrounds ~98–100% white",
+          "Sidebar slightly darker (add ~2% blue); card borders ~85% white",
+          "Layer 2 accent as a scale: 500–600 primary, 700 hover, 400–500 links",
+          "Dark mode needs double the distance between neutrals: 4–6% instead of ~2%",
+          "Layer 3 semantic/chart colours: use OKLCH to keep perceived brightness even",
+          "Layer 4 theming: lower neutral lightness 0.03, raise chroma 0.02, then shift hue",
+          "His Figma file ships these as variables"
+        ],
+        "cards": [
+          {
+            "q": "Four layers of his colour system?",
+            "a": "Neutral foundation, functional accent scale, semantic colours, theming."
+          },
+          {
+            "q": "Neutral spacing in dark vs light mode?",
+            "a": "Dark mode needs about double: ~4–6% between steps instead of ~2%."
+          },
+          {
+            "q": "Why OKLCH for chart colours?",
+            "a": "It keeps perceived brightness consistent across hues."
+          }
+        ],
+        "concepts": [
+          "Colour",
+          "Dashboards",
+          "Components"
+        ],
+        "addedAt": 1790000000007
+      },
+      {
+        "id": "AH_ugxmLeUM",
+        "title": "7 UI/UX mistakes that SCREAM you're a beginner",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 437,
+        "level": "m2",
+        "kind": "partial",
+        "sum": "Beginner tells: no flow, heavy effects, loose spacing, inconsistent components, weak feedback.",
+        "pts": [
+          "Plan the user flow first: sketch boxes for search, skip buttons, hidden states",
+          "No harsh shadows or multi-colour gradients: light grey shadow with more blur, or none",
+          "3-column grids; Auto Layout with vertical trim for pixel-accurate spacing",
+          "Consistency: one corner radius (e.g. 10px) everywhere, matching button sizes, saved styles/variables",
+          "One icon library, SVGs, tooltips for unclear icons",
+          "Remove redundant arrows and strokes",
+          "Feedback: grey out buttons while loading, spinners, filled icons on tap, tab indicators",
+          "Charts: axis labels, no rounded bar tops, accurate data"
+        ],
+        "cards": [
+          {
+            "q": "Auto Layout setting for pixel-accurate text spacing?",
+            "a": "Vertical trim (trim to cap height/baseline)."
+          },
+          {
+            "q": "How to make components feel consistent fast?",
+            "a": "One corner radius everywhere, matching button sizes, saved styles/variables."
+          },
+          {
+            "q": "What should a button do while loading?",
+            "a": "Grey out/disable and show a spinner."
+          }
+        ],
+        "concepts": [
+          "Components",
+          "Layout & spacing",
+          "Interaction & states"
+        ],
+        "addedAt": 1790000000008
+      },
+      {
+        "id": "gKM6b2EnW1k",
+        "title": "Upgrading 9 CRUCIAL UI Elements",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 655,
+        "level": "m3",
+        "kind": "partial",
+        "sum": "Before/after upgrades of tab bars, charts, cards, pricing, stickers, sign-up, footers, chips, carousels.",
+        "pts": [
+          "Tab bars: no protruding icon, aligned, strong active vs inactive contrast",
+          "Charts: horizontal grid lines, markers, straight segments, a vertical time indicator",
+          "Image cards: gradient overlay over ~¾ of the image, arrow that fades in on hover",
+          "Pricing: outline CTA moved up, checkmarks instead of bullets, list limits, disclaimer under a divider",
+          "Stickers: 12-point rounded star, quirky display font, outline, hard offset shadow",
+          "Sign-up: labels above inputs, real placeholder examples, link to log in",
+          "Footers: 3–5 centred links if content is minimal",
+          "Chips: Auto Layout; vertical padding 50% or 25% of horizontal",
+          "Carousels: indicators on a dark blurred pill, arrows beside them"
+        ],
+        "cards": [
+          {
+            "q": "Chip padding ratio?",
+            "a": "Vertical padding = 50% or 25% of horizontal padding."
+          },
+          {
+            "q": "Where do input labels go?",
+            "a": "Above the input, not as placeholder text."
+          },
+          {
+            "q": "Image-card text readability trick?",
+            "a": "Gradient overlay covering about ¾ of the image height."
+          }
+        ],
+        "concepts": [
+          "Components",
+          "Layout & spacing",
+          "Visual effects"
+        ],
+        "addedAt": 1790000000009
+      },
+      {
+        "id": "neE6wOuBIP8",
+        "title": "The secret behind weirdly perfect UI designs",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 497,
+        "level": "m3",
+        "kind": "concept",
+        "sum": "Alignment to edges, manufactured edges, and emphasis through contrast.",
+        "pts": [
+          "Hard-left and hard-right text with non-critical content centred, like a receipt",
+          "Every element should align to at least two edges",
+          "Manufacture edges with dividers or sublines when content doesn't fit existing ones",
+          "Too much undifferentiated content = cognitive load; group and add avatars",
+          "Icons, chips and diagrams read faster than text labels",
+          "Emphasis is the difference between an element and its neighbours",
+          "Dissolve nested cards into a single-line column grid",
+          "Use fill/colour for state change; don't default to filled"
+        ],
+        "cards": [
+          {
+            "q": "How many edges should each element align to?",
+            "a": "At least two."
+          },
+          {
+            "q": "What is emphasis, by his definition?",
+            "a": "The difference between an element and its neighbours, not a property of the element."
+          },
+          {
+            "q": "Fix for nested card borders?",
+            "a": "Dissolve them into a single-line column grid."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Components",
+          "Colour"
+        ],
+        "addedAt": 1790000000010
+      },
+      {
+        "id": "P2ksReDwWkE",
+        "title": "Website Layouts To Make A Professional Website Design",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 719,
+        "level": "m3",
+        "kind": "hands-on",
+        "sum": "Ten layout patterns built in Figma, with text cutouts via boolean subtract.",
+        "pts": [
+          "Rounded cards on a dark background with precise gaps",
+          "Cropped photos + gradient overlay beneath text",
+          "Giant display text (~290px) above the navbar for impact",
+          "Multi-image scroll layouts need careful crops and ratios",
+          "Stacked cards that slide up on scroll to reveal steps",
+          "Horizontal carousels for 3–10 items (not more)",
+          "Bento grids only with enough content; size boxes by content",
+          "Text cut out of an image with Figma's Subtract boolean",
+          "Text-heavy sections need 3+ lines of body and generous space"
+        ],
+        "cards": [
+          {
+            "q": "How to cut text through an image in Figma?",
+            "a": "Place text over the image, select both, Boolean → Subtract."
+          },
+          {
+            "q": "Ideal item count for a horizontal carousel?",
+            "a": "3–10 items."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Components",
+          "Mobile"
+        ],
+        "addedAt": 1790000000011
+      },
+      {
+        "id": "VPeTgU7la34",
+        "title": "7 Modern UI Layouts from 50 Top Software Companies",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 449,
+        "level": "m3",
+        "kind": "partial",
+        "sum": "Patterns from 50 SaaS sites: logo walls, big type, tabbed sections, bentos, image dropdowns.",
+        "pts": [
+          "41 of 50 SaaS sites show customer logos; marquee with blurred/gradient edges",
+          "Large text, big imagery and white space keep people scrolling",
+          "Differentiate with custom fonts, inline diagrams, subtle gradients",
+          "Tabbed multi-sections: design every tab state before handoff",
+          "Simple, tasteful animation over GPU-heavy graphics",
+          "Simple bento grids are on-trend and developer-friendly",
+          "Straight-line grid sections with interactive cells",
+          "Nav dropdowns with images give context"
+        ],
+        "cards": [
+          {
+            "q": "How many of 50 SaaS sites used a logo wall?",
+            "a": "41."
+          },
+          {
+            "q": "Handoff rule for tabbed sections?",
+            "a": "Design every tab state, not just the first."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Colour",
+          "Typography"
+        ],
+        "addedAt": 1790000000012
+      },
+      {
+        "id": "tNMAFjzapOk",
+        "title": "The Formula Behind Truly Captivating UI Sections",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 334,
+        "level": "m3",
+        "kind": "concept",
+        "sum": "Structure + purposeful motion + one deliberate surprise.",
+        "pts": [
+          "Clutter makes elements compete; structure guides the eye",
+          "Grid-driven layouts with white space beat flashy components",
+          "5-second scroll test: is the core idea clear?",
+          "Motion should support clarity, introducing the product",
+          "Hover and unexpected micro-interactions add delight",
+          "Break a pattern deliberately to create a memorable moment",
+          "Formula: structure + animation + strategic surprise"
+        ],
+        "cards": [
+          {
+            "q": "The captivating-section formula?",
+            "a": "Structure + purposeful animation + strategic surprise."
+          },
+          {
+            "q": "What's the 5-second test?",
+            "a": "Scroll a section for 5 seconds: can you state its core idea?"
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Motion & prototyping",
+          "Interaction & states"
+        ],
+        "addedAt": 1790000000013
+      },
+      {
+        "id": "SfX43uIubj4",
+        "title": "4 UI Design Hacks to KILL boring designs",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 405,
+        "level": "m3",
+        "kind": "concept",
+        "sum": "Off-grid decoration, personality, playful motion and friendly copy.",
+        "pts": [
+          "Balance decoration with space; don't crowd text",
+          "Place decorative elements off-grid, fading away from the focal point",
+          "Match the vibe to the brand (playful, professional, neo-brutalist)",
+          "Entrance animations for illustrations: rotate, fly in, bob",
+          "Parallax in the margins adds depth cheaply",
+          "Animate text: fade, progress bar, bouncing letters",
+          "Hover micro-interactions throughout",
+          "Friendly copy instead of corporate jargon; fun 404 pages"
+        ],
+        "cards": [
+          {
+            "q": "Where should decorative elements sit?",
+            "a": "Off-grid around the focal point, fading out with distance, never crowding text."
+          },
+          {
+            "q": "Cheap way to add depth to a page?",
+            "a": "Parallax elements in the margins."
+          }
+        ],
+        "concepts": [
+          "Motion & prototyping",
+          "Layout & spacing",
+          "Interaction & states"
+        ],
+        "addedAt": 1790000000014
+      },
+      {
+        "id": "ulSOdTgoGeY",
+        "title": "Awful To AMAZING Web Designs Easily",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 426,
+        "level": "m3",
+        "kind": "partial",
+        "sum": "Ten redesign moves, including offset hover buttons prototyped in Figma.",
+        "pts": [
+          "Wireframe first for a strong base",
+          "Vary column layouts: full-bleed, cards, multi-column",
+          "Break the box: overlap and shift elements",
+          "High-quality images; crop/zoom or overlay them",
+          "Mask images into shapes that match the site style",
+          "Scale key elements up for attention",
+          "Stack a 2-column layout into 1 column for focus",
+          "Offset button + background depth, hover animated via duplicated frames in prototype",
+          "Dark mode with adjusted saturation and frosted glass; marquees and accordions for motion"
+        ],
+        "cards": [
+          {
+            "q": "What is 'breaking the box'?",
+            "a": "Overlapping or shifting elements out of their containers for movement."
+          },
+          {
+            "q": "How is the offset-button hover built in Figma?",
+            "a": "Duplicate the frame, shift the button onto its shadow, connect with a hover interaction."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Motion & prototyping",
+          "Components"
+        ],
+        "addedAt": 1790000000015
+      },
+      {
+        "id": "ADaQuZS04Rc",
+        "title": "Stop Making Pretty UIs. Think Like a Product Designer",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 292,
+        "level": "m4",
+        "kind": "concept",
+        "sum": "Design states, flows and systems, not just the happy path.",
+        "pts": [
+          "UI alone isn't product design: flow, function and connections matter",
+          "Design empty, loading, success and error states",
+          "Ask how users arrive and what they need next; chain small decisions",
+          "A design system keeps spacing, type and colour consistent, building trust",
+          "Reused components make new screens feel familiar",
+          "Portfolios should show complete experiences solving real problems"
+        ],
+        "cards": [
+          {
+            "q": "Four non-happy-path states to design?",
+            "a": "Empty, loading, success, error."
+          },
+          {
+            "q": "Why use a design system?",
+            "a": "Consistency builds trust and new screens feel familiar."
+          }
+        ],
+        "concepts": [
+          "UX thinking",
+          "Interaction & states",
+          "Layout & spacing"
+        ],
+        "addedAt": 1790000000016
+      },
+      {
+        "id": "HE4rLEQpiXY",
+        "title": "How to think like a GENIUS UI/UX designer",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 331,
+        "level": "m4",
+        "kind": "concept",
+        "sum": "User intent first, conventions, progressive disclosure, edge cases.",
+        "pts": [
+          "Design for user intent, not to impress designers",
+          "Start with the core action (e.g. travel search: destination, travellers, dates)",
+          "Respect conventions: top-to-bottom, left-to-right, nav at top",
+          "Progressive disclosure: show essentials, reveal detail on interaction",
+          "Prefer 'Load more' over infinite scroll (control + reachable footer)",
+          "Animation for clarity, not decoration",
+          "Handle edge cases: truncate long names, check icon contrast",
+          "Master the system, then bend rules on purpose"
+        ],
+        "cards": [
+          {
+            "q": "Load more vs infinite scroll?",
+            "a": "Load more: users keep control and can reach the footer."
+          },
+          {
+            "q": "What is progressive disclosure?",
+            "a": "Show only what's needed now; reveal details on interaction."
+          }
+        ],
+        "concepts": [
+          "UX thinking",
+          "Layout & spacing",
+          "Components"
+        ],
+        "addedAt": 1790000000017
+      },
+      {
+        "id": "B7k5rOgmOGY",
+        "title": "EVERYTHING you need to know to build a Dashboard UI",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 504,
+        "level": "m5",
+        "kind": "concept",
+        "sum": "Sidebar, hierarchy, core components, charts and interaction layers.",
+        "pts": [
+          "The sidebar is the product's spine: nav, profile, search, icons + short titles",
+          "Group links by relevance; settings and help at the bottom",
+          "Smaller type and stricter grids than landing pages",
+          "One primary function; key metrics most prominent",
+          "Multi-select with contextual bulk actions",
+          "Simple line/bar charts with grid lines, summaries and date pickers",
+          "Four core components: lists/tables, cards, inputs, tabs",
+          "Optimistic UI: show the result before the server confirms",
+          "Popover = light, non-blocking; modal = complex, blocking; toast = alerts",
+          "Tables: search, filter, sort; separate rows by space, dividers or colour"
+        ],
+        "cards": [
+          {
+            "q": "The four core dashboard components?",
+            "a": "Lists/tables, cards, input fields, tabs."
+          },
+          {
+            "q": "Popover vs modal vs toast?",
+            "a": "Popover: simple, non-blocking. Modal: complex, blocking. Toast: alerts/notifications."
+          },
+          {
+            "q": "What is optimistic UI?",
+            "a": "Show the action's result immediately, before the server confirms."
+          }
+        ],
+        "concepts": [
+          "Components",
+          "Dashboards",
+          "Layout & spacing"
+        ],
+        "addedAt": 1790000000018
+      },
+      {
+        "id": "Ksx9C2-3yMo",
+        "title": "The 3 dashboard UI flaws that give away you've NEVER built one",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 419,
+        "level": "m5",
+        "kind": "concept",
+        "sum": "Data-driven form, hidden (invisible) UI, and gradual onboarding.",
+        "pts": [
+          "Let data drive form: chips for categories, right-align numbers, truncate text",
+          "Use a timeline instead of a table when data is temporal",
+          "Colour means something: red = urgent; avatars beat names for scanning",
+          "Progressive disclosure: secondary actions on hover or swipe",
+          "Explicitness spectrum: global buttons (high) to hover tooltips (low)",
+          "Onboard gradually: one tooltip, then a checklist, not a wall of modals",
+          "Invisible UI (copy chips, comment dots, hidden states) is real work",
+          "Tooltips for any ambiguous icon"
+        ],
+        "cards": [
+          {
+            "q": "How should numbers align in tables?",
+            "a": "Right-aligned so digits line up."
+          },
+          {
+            "q": "Better onboarding than a login modal wall?",
+            "a": "Single tooltips, then a checklist, revealed gradually."
+          }
+        ],
+        "concepts": [
+          "Interaction & states",
+          "Components",
+          "Dashboards"
+        ],
+        "addedAt": 1790000000019
+      },
+      {
+        "id": "PDcQJOPby1k",
+        "title": "5 SaaS UI/UX mistakes that SCREAM you Vibe Code",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 392,
+        "level": "m5",
+        "kind": "partial",
+        "sum": "Fixing AI-generated SaaS UI: icons, palette, KPIs, menus, modals, charts.",
+        "pts": [
+          "Replace emojis with a real icon set (Phosphor, Lucide)",
+          "Use a cohesive palette, not AI-picked colours",
+          "Remove duplicated KPIs",
+          "Account card with popover instead of a gradient avatar circle",
+          "Collapse busy buttons into a ⋯ menu; reorder card hierarchy",
+          "Sparse flyout forms → modal; collapse advanced options",
+          "Cheap extra features (split links, comparisons)",
+          "Richer charts (maps, doughnuts); custom graphics and skew on the landing page"
+        ],
+        "cards": [
+          {
+            "q": "First fix for a vibe-coded UI?",
+            "a": "Swap emojis for a proper icon library like Phosphor or Lucide."
+          },
+          {
+            "q": "What to do with too many buttons on a card?",
+            "a": "Collapse secondary ones into a ⋯ overflow menu."
+          }
+        ],
+        "concepts": [
+          "Components",
+          "Dashboards",
+          "Colour"
+        ],
+        "addedAt": 1790000000020
+      },
+      {
+        "id": "Yr2uIcFZDDQ",
+        "title": "Redesigning a Finance Dashboard UI from SCRATCH",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 522,
+        "level": "m5",
+        "kind": "partial",
+        "sum": "A full dashboard redesign driven by priority and merged data.",
+        "pts": [
+          "Assess hierarchy first; remove duplicates like two search bars",
+          "Merge related data (card lock with card info; growth into profit card)",
+          "Move menu, team, settings and add-widget into a collapsible sidebar",
+          "Replace useless buttons with useful ones; add due dates and minimums",
+          "Chips for percentages; pick bar/pie over lines when clearer",
+          "Rank features high/mid/low; high priority top-left",
+          "Fill gaps with a genuinely missing card (credit line)",
+          "Plan card widths and 'View all' for overflow"
+        ],
+        "cards": [
+          {
+            "q": "Where do high-priority dashboard items go?",
+            "a": "Top-left."
+          },
+          {
+            "q": "First step before redesigning a dashboard?",
+            "a": "Audit hierarchy and remove redundant elements."
+          }
+        ],
+        "concepts": [
+          "Components",
+          "Dashboards",
+          "UX thinking"
+        ],
+        "addedAt": 1790000000021
+      },
+      {
+        "id": "If7iCPDy2vk",
+        "title": "The 7 UI Components to Design Like Unicorn AI Startups",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 391,
+        "level": "m5",
+        "kind": "partial",
+        "sum": "AI product patterns, plus how to build a dark glass effect in Figma.",
+        "pts": [
+          "Big prompt box as the hero",
+          "Preview attachments; collapse long code blocks",
+          "Context chips (brainstorm, data, email) guide the model",
+          "Integrations (Drive, GitHub, Figma)",
+          "Stream responses word by word",
+          "Searchable history turns an archive into a workspace",
+          "Visible, editable memory panel",
+          "Inline editing of highlighted text; show research trail and sources",
+          "Dark glass: rectangle + transparency + gradient + background blur + 1px border + inner shadow + shimmer"
+        ],
+        "cards": [
+          {
+            "q": "Recipe for the dark glass effect?",
+            "a": "Semi-transparent rectangle, gradient, background blur, 1px border, inner shadow, shimmer animation."
+          },
+          {
+            "q": "Why stream AI responses?",
+            "a": "Turns waiting into anticipation."
+          }
+        ],
+        "concepts": [
+          "Visual effects",
+          "Components",
+          "Layout & spacing"
+        ],
+        "addedAt": 1790000000022
+      },
+      {
+        "id": "Gfsd8NNuD9g",
+        "title": "Everything you need to know about Mobile App UIs in 8 minutes",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 457,
+        "level": "m6",
+        "kind": "concept",
+        "sum": "Mobile rules: tab bars, touch targets, one direction per section, gestures, empty states.",
+        "pts": [
+          "Bottom tab bar: max 5 links (3–4 ideal), 44px minimum touch targets",
+          "iOS body text 17px (macOS 13px); keep a similar type scale to desktop",
+          "Each section scrolls one direction only",
+          "Four building blocks: cards, text/links, images, inputs",
+          "No double-nested cards; group with white space",
+          "One screen does one thing",
+          "Bottom sheets keep context",
+          "Gestures: swipe back (background parallax ~35%), swipe down sheets, long-press",
+          "Hide the tab bar in detail views; design full-screen empty states"
+        ],
+        "cards": [
+          {
+            "q": "Minimum touch target?",
+            "a": "44px."
+          },
+          {
+            "q": "iOS default body size?",
+            "a": "17px (macOS: 13px)."
+          },
+          {
+            "q": "Max links in a bottom tab bar?",
+            "a": "5 (3–4 is ideal)."
+          }
+        ],
+        "concepts": [
+          "Mobile",
+          "Interaction & states",
+          "Layout & spacing"
+        ],
+        "addedAt": 1790000000023
+      },
+      {
+        "id": "14h1VnkQvIc",
+        "title": "Master the 3 Types of CRAZY Mobile UI Swipe Interactions",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 353,
+        "level": "m6",
+        "kind": "concept",
+        "sum": "Swipe patterns with springy easing, skew, and fluid indicators.",
+        "pts": [
+          "Non-linear easing with a little bounce feels alive",
+          "Skew cards as they approach the edge for 3D depth",
+          "Magnetic, fluid indicators that follow the swipe",
+          "Treat screen edges like a horizon: elements shrink toward it",
+          "Always offer a button alternative to swipe (like Gmail delete)",
+          "Background follows the swipe direction for continuity",
+          "Circular expansion for page transitions",
+          "Swipe-to-confirm for high-impact actions"
+        ],
+        "cards": [
+          {
+            "q": "Why pair swipe actions with buttons?",
+            "a": "Accessibility: not everyone can or will swipe."
+          },
+          {
+            "q": "When use swipe-to-confirm?",
+            "a": "High-impact actions that shouldn't be tapped by accident."
+          }
+        ],
+        "concepts": [
+          "Mobile",
+          "Interaction & states",
+          "Motion & prototyping"
+        ],
+        "addedAt": 1790000000024
+      },
+      {
+        "id": "Vy0KKvZJRH8",
+        "title": "Everything you need to Design macOS Apps EXACTLY like Apple",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 558,
+        "level": "m6",
+        "kind": "partial",
+        "sum": "Apple-style desktop utilities: minimal chrome, disclosure, drag and drop.",
+        "pts": [
+          "Stay out of the way until needed; global shortcuts",
+          "Keep ~50px at the top for window dragging",
+          "Layout: global actions top, optional sidebar, content centred",
+          "Progressive disclosure",
+          "Light and dark modes consistent, not exact inverses",
+          "Drag and drop everywhere",
+          "Micro-animations for feedback",
+          "Floating action bars and collapsing search",
+          "Onboarding modal teaching shortcuts; optimistic UI"
+        ],
+        "cards": [
+          {
+            "q": "Space to leave at the top of a macOS window?",
+            "a": "About 50px for dragging."
+          },
+          {
+            "q": "Apple utility app layout?",
+            "a": "Global actions on top, optional sidebar, content centred."
+          }
+        ],
+        "concepts": [
+          "Interaction & states",
+          "UX thinking",
+          "Layout & spacing"
+        ],
+        "addedAt": 1790000000025
+      },
+      {
+        "id": "goWOAFqJHpA",
+        "title": "I Redesigned Spotify Wrapped Entirely From SCRATCH",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 412,
+        "level": "m6",
+        "kind": "partial",
+        "sum": "A mobile UX redesign case: reachability, chapters, sharing.",
+        "pts": [
+          "Move controls to the bottom for thumb reach",
+          "Scrollable feed instead of tap-through slides",
+          "Lean on known conventions (tap to pause)",
+          "Chapters (songs, artists, genres) with a dropdown",
+          "'View summary' dashboard without leaving the flow",
+          "Flexible sharing: one slide, a chapter, or everything",
+          "One share menu instead of many CTAs",
+          "Quick stats over flashy animation"
+        ],
+        "cards": [
+          {
+            "q": "Why move mobile controls down?",
+            "a": "Thumb reachability."
+          },
+          {
+            "q": "Fix for many competing share buttons?",
+            "a": "Consolidate into one share menu."
+          }
+        ],
+        "concepts": [
+          "UX thinking",
+          "Dashboards",
+          "Mobile"
+        ],
+        "addedAt": 1790000000026
+      },
+      {
+        "id": "eMMiLeo_UGI",
+        "title": "The 4 Levels of Landing Page UI/UX Design",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 599,
+        "level": "m7",
+        "kind": "concept",
+        "sum": "The same SaaS page at $500, $2k, $6–10k and $10k+.",
+        "pts": [
+          "L1 ($500): template feel, alternating left/right, weak type hierarchy, flat nav",
+          "L2 ($2k): stacked hero, real product dashboard image, outline secondary CTA, load animation",
+          "L3 ($6–10k): zoom into key product areas, bento grids, interactive elements, mega menu",
+          "L4 ($10k+): flexible layouts, copy about how it helps, colour woven through, refined motion with blur",
+          "Test: does the page make you keep scrolling, or feel like dropped-in sections?"
+        ],
+        "cards": [
+          {
+            "q": "What moves a page from $500 to $2k?",
+            "a": "Stacked hero, real product imagery, outline secondary CTA, load animation."
+          },
+          {
+            "q": "Level-4 copy shift?",
+            "a": "From what it does to how it helps."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Motion & prototyping",
+          "Dashboards"
+        ],
+        "addedAt": 1790000000027
+      },
+      {
+        "id": "RCneB_MQ7qs",
+        "title": "The one thing vibe coding CAN'T fix about your website",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 538,
+        "level": "m7",
+        "kind": "partial",
+        "sum": "Visual identity: imagery, palette, font pairing and repeated motifs.",
+        "pts": [
+          "Sites without real photography feel robotic",
+          "Set identity first: mood images, earthy palette, accent",
+          "Pair a serif with a sans for personality",
+          "'Frankenstein' competitor layouts for structure and messaging",
+          "Layer assets: large behind, small in front; keep text-safe margins",
+          "Darken edges to pull focus to the centre",
+          "Repeat animation motifs across the site",
+          "Rotate featured images on a timer with hover zoom"
+        ],
+        "cards": [
+          {
+            "q": "What should you define before layout?",
+            "a": "Visual identity: imagery, palette, accent colour, fonts."
+          },
+          {
+            "q": "What is 'Frankensteining'?",
+            "a": "Combining structure from several competitor layouts."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Typography",
+          "Colour"
+        ],
+        "addedAt": 1790000000028
+      },
+      {
+        "id": "BvbFPzLjWcU",
+        "title": "Redesigning A Modern Skincare UI from SCRATCH",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 341,
+        "level": "m7",
+        "kind": "partial",
+        "sum": "E-commerce redesign: declutter the header, two-column ultrawide, real screen sizes.",
+        "pts": [
+          "Fix cramped layouts with clear hierarchy and a grid",
+          "Keep headers focused; drop socials and testimonials there",
+          "Ultrawide two-column image/text split suits beauty e-commerce",
+          "Design for real monitors (~1920 × 1000 visible)",
+          "Collapse secondary nav into a menu",
+          "Consistent, well-lit product photos; soft overlays on bright images",
+          "Sliders with labels like 'New Arrivals' when space is tight"
+        ],
+        "cards": [
+          {
+            "q": "What viewport should you design desktop heroes for?",
+            "a": "About 1920 wide × ~1000 visible height."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Visual effects"
+        ],
+        "addedAt": 1790000000029
+      },
+      {
+        "id": "V3Omp1hm0Sg",
+        "title": "I Redesigned a Failing Tesla WANNABE Full Website",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 479,
+        "level": "m7",
+        "kind": "hands-on",
+        "sum": "Full site redesign in Figma: text behind subjects, sliders, bentos.",
+        "pts": [
+          "Find large images via Google Images → Tools → Size: Large",
+          "Put text behind the subject: trace the car and Subtract shapes",
+          "Remove excess white space to tighten hierarchy",
+          "Sparing hover zoom/fade on CTAs",
+          "Accordions → compact slider for features",
+          "Bento sized to image orientation",
+          "Flip a duplicated image for a gradient reflection",
+          "'See more' for specs; alternate image sides; hamburger for secondary nav"
+        ],
+        "cards": [
+          {
+            "q": "How to put headline text behind an object in a photo?",
+            "a": "Trace the object, then Subtract it from the text/shape so it appears in front."
+          }
+        ],
+        "concepts": [
+          "Layout & spacing",
+          "Colour",
+          "Interaction & states"
+        ],
+        "addedAt": 1790000000030
+      },
+      {
+        "id": "pGYLZyBE32o",
+        "title": "I Redesigned Google's AI Website from SCRATCH",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 473,
+        "level": "m7",
+        "kind": "partial",
+        "sum": "AI-brand aesthetic: search-first header, mesh gradients, gradient-stroke hovers.",
+        "pts": [
+          "Search bar in the header instead of a plain button",
+          "Mesh gradient + noise + fully rounded corners = AI look",
+          "Chatbot loading animation in the header",
+          "Bento cards for features without repetition",
+          "Gradient stroke on hover",
+          "Merge redundant pages into one",
+          "Dark mode with darkened primary gradients",
+          "Extend elements off the page; iterate several layouts"
+        ],
+        "cards": [
+          {
+            "q": "Elements of the 'AI aesthetic'?",
+            "a": "Mesh gradients, noise, fully rounded corners, gradient strokes."
+          }
+        ],
+        "concepts": [
+          "Colour",
+          "Interaction & states",
+          "Layout & spacing"
+        ],
+        "addedAt": 1790000000031
+      },
+      {
+        "id": "MZSm6MA8bww",
+        "title": "Advanced FIGMA Web Design Effects",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 224,
+        "level": "m8",
+        "kind": "hands-on",
+        "sum": "Kaleidoscope, clay, metallic, rose gold and mesh gradients in Figma.",
+        "pts": [
+          "Kaleidoscope: circle + radial gradient + angular gradient (8 black/white alternations), blend Difference, duplicate on Screen",
+          "Clay: inner shadows on top/right and bottom/left edges",
+          "Metallic: grey/dark-blue linear gradient + white radial on Overlay + two inner shadows",
+          "Rose gold: add a ~20% colour fill on top",
+          "Mesh gradient: blurred semi-transparent circles, some on Overlay, 8–10+ layers"
+        ],
+        "cards": [
+          {
+            "q": "How to fake a mesh gradient in Figma?",
+            "a": "Stack 8–10+ blurred, semi-transparent circles, some set to Overlay."
+          },
+          {
+            "q": "Clay effect ingredient?",
+            "a": "Inner shadows on opposite edges."
+          }
+        ],
+        "concepts": [
+          "Visual effects",
+          "Colour",
+          "Layout & spacing"
+        ],
+        "addedAt": 1790000000032
+      },
+      {
+        "id": "ld1zhQMXxXU",
+        "title": "11 Micro Animations That Will Instantly Level Up Your UI",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 506,
+        "level": "m8",
+        "kind": "hands-on",
+        "sum": "Eleven prototyped micro-interactions with exact spring and delay values.",
+        "pts": [
+          "Button hover: mask with two text sets, 'While pressing' for clicks",
+          "Keyboard shortcut success toast (Cmd/Shift can't be bound in Figma)",
+          "Toasts with loading and particles via delays",
+          "Name tag on hover: Auto Layout, spring stiffness 636, damping 24, 500ms",
+          "Shimmer stroke: angular gradient masked to a ring (Subtract), rotated",
+          "Tooltip: 1000ms delay on Mouse enter",
+          "Progress bar: stroke masked to a rectangle and slid",
+          "Card swipe stack: rotate + 0% opacity, scale back cards",
+          "Search expands over three frames with delays"
+        ],
+        "cards": [
+          {
+            "q": "Tooltip delay he uses?",
+            "a": "1000ms after Mouse enter."
+          },
+          {
+            "q": "Spring values for the name-tag hover?",
+            "a": "Stiffness 636, damping 24, 500ms."
+          },
+          {
+            "q": "How is the shimmer stroke made?",
+            "a": "Angular gradient masked to a ring (Subtract), then rotated."
+          }
+        ],
+        "concepts": [
+          "Motion & prototyping",
+          "Interaction & states",
+          "Components"
+        ],
+        "addedAt": 1790000000033
+      },
+      {
+        "id": "NtZeYmTMuo4",
+        "title": "Animated Dashboard Sidebar Tutorial in Figma",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 664,
+        "level": "m8",
+        "kind": "hands-on",
+        "sum": "Step-by-step Smart Animate sidebar with hovers, blur focus and a loader.",
+        "pts": [
+          "Subtle outlines + light-grey shadows for compact palettes",
+          "Base layers at 0% opacity, 100% in the duplicate frame",
+          "Smart Animate with 'While hovering'",
+          "Matching layer names = Figma animates them as one",
+          "Offset elements a few px before animating for slide-ups",
+          "Layer blur ~24px to push background out of focus",
+          "Mask a rectangle to slide-reveal checkmarks",
+          "Chain frames with 300ms delays; spring stiffness 550, damping 40"
+        ],
+        "cards": [
+          {
+            "q": "Why must layer names match across frames?",
+            "a": "Smart Animate only tweens layers with identical names."
+          },
+          {
+            "q": "Spring used in the sidebar loader?",
+            "a": "Stiffness 550, damping 40, 300ms delays."
+          },
+          {
+            "q": "Blur value for focus state?",
+            "a": "Layer blur about 24px."
+          }
+        ],
+        "concepts": [
+          "Motion & prototyping",
+          "Visual effects",
+          "Dashboards"
+        ],
+        "addedAt": 1790000000034
+      },
+      {
+        "id": "nl8OFGdx75w",
+        "title": "Prototyping Professional Load Animations in Figma: Part 1",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 524,
+        "level": "m8",
+        "kind": "hands-on",
+        "sum": "A full page-load sequence with Smart Animate, custom béziers and staggered delays.",
+        "pts": [
+          "Duplicate frames and slide content up to reveal the page",
+          "Nav fills start at 0% then 100% for staggered fades",
+          "Smart Animate with custom bézier curves, ~800ms delays",
+          "Expanding navbar built by resizing across frames",
+          "Text wipe: thin transparent rectangle dragged over text, 700ms",
+          "Chain frames with 1ms after-delays for seamless sequences",
+          "Stagger: 800ms first, then 100–200ms per element"
+        ],
+        "cards": [
+          {
+            "q": "How do you chain frames into a seamless sequence?",
+            "a": "After delay triggers of ~1ms between frames."
+          },
+          {
+            "q": "Stagger timing he uses?",
+            "a": "800ms initial, then 100–200ms between elements."
+          }
+        ],
+        "concepts": [
+          "Motion & prototyping"
+        ],
+        "addedAt": 1790000000035
+      },
+      {
+        "id": "ZsP20PN14O0",
+        "title": "5 Trendy Animations to Steal for Your Next Web Design",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 368,
+        "level": "m8",
+        "kind": "concept",
+        "sum": "Five animation families to plan for: entrance, hover, scroll, loop, mouse.",
+        "pts": [
+          "Types: entrance, hover/click, scroll, looped, mouse-follow",
+          "Keep them subtle",
+          "Entrance: preloader flows into background and text",
+          "Hover: text, colour and shape morphs (circle → rectangle)",
+          "Scroll: gradient masks driven by scroll, staggered lines",
+          "Loops: slow, minimal orbits",
+          "Mouse effects need touch fallbacks"
+        ],
+        "cards": [
+          {
+            "q": "Five web animation families?",
+            "a": "Entrance, hover/click, scroll, looped, mouse-based."
+          },
+          {
+            "q": "What do mouse effects need?",
+            "a": "A fallback for touch devices."
+          }
+        ],
+        "concepts": [
+          "Interaction & states",
+          "Colour",
+          "Motion & prototyping"
+        ],
+        "addedAt": 1790000000036
+      },
+      {
+        "id": "7cTdCu8HMgM",
+        "title": "The DEFINITIVE process to present UIs like a pro",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 396,
+        "level": "m9",
+        "kind": "partial",
+        "sum": "Backgrounds, skew, collages, mockups and prototypes that sell a design.",
+        "pts": [
+          "Dark, desaturated accent backgrounds or a subtle glow",
+          "Faint shadows for light-mode shots",
+          "'Explode' UI: extend lines and patterns off-screen",
+          "Skew ~2° vertical, −14° horizontal, with offset shadows",
+          "Offset, rotated screen stacks instead of grids",
+          "Zoom into sections rather than full screens",
+          "Device mockups and AI lifestyle mockups",
+          "Show a working prototype, not only statics"
+        ],
+        "cards": [
+          {
+            "q": "Skew values he recommends?",
+            "a": "About 2° vertical and −14° horizontal."
+          },
+          {
+            "q": "Best way to show a full experience?",
+            "a": "A working, clickable prototype."
+          }
+        ],
+        "concepts": [
+          "Presentation",
+          "Layout & spacing",
+          "Motion & prototyping"
+        ],
+        "addedAt": 1790000000037
+      },
+      {
+        "id": "xHD01_Onac0",
+        "title": "Vibe Coding a Pro UI in SECONDS With AI",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 386,
+        "level": "m9",
+        "kind": "partial",
+        "sum": "Prompt an AI for HTML/CSS, import to Figma with 'html.to.design', then fix.",
+        "pts": [
+          "Give the AI a reference image and ask for HTML/CSS",
+          "State the purpose (e.g. project-management dashboard)",
+          "List required elements: sidebar, nav, charts",
+          "Demand an icon library, no emojis",
+          "Import with the HTML-to-design plugin; hover states come along",
+          "Expect to fix fonts, alignment, colour and contrast",
+          "Simple references work better than busy ones; 21st.dev for components"
+        ],
+        "cards": [
+          {
+            "q": "Plugin to bring AI HTML into Figma?",
+            "a": "HTML to design (html.to.design)."
+          },
+          {
+            "q": "Prompt must-haves?",
+            "a": "Purpose, required elements, output as HTML/CSS, a named icon library."
+          }
+        ],
+        "concepts": [
+          "Dashboards",
+          "Interaction & states",
+          "Components"
+        ],
+        "addedAt": 1790000000038
+      },
+      {
+        "id": "EHwZzWd-OnQ",
+        "title": "7 UI design trends that are CRIMINALLY slept on",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 558,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Text swaps, hand-drawn marks, typographic design, dividers, morphing media.",
+        "pts": [
+          "Text swapping in matching layouts",
+          "Hand-drawn circles/underlines with the pencil tool",
+          "Typography as the design; inspect sites to find fonts",
+          "Moving type for narrative",
+          "Rounded horizontal rules as dividers",
+          "Morphing images/videos (keep them light)",
+          "Scroll-triggered diagrams; product images in menus"
+        ],
+        "cards": [
+          {
+            "q": "Easy hand-drawn effect in Figma?",
+            "a": "Pencil tool to circle or underline key words."
+          }
+        ],
+        "concepts": [
+          "Typography",
+          "Layout & spacing"
+        ],
+        "addedAt": 1790000000039
+      },
+      {
+        "id": "eeN7yUcIWbw",
+        "title": "20 Top Underrated Web Design Resources for 2025",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 590,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Tools and libraries to speed up design work.",
+        "pts": [
+          "UIverse: copy components into Figma",
+          "Logo System and Logoipsum for logos",
+          "Fontjoy-style font pairing tools",
+          "Design Spells for micro-interaction inspiration",
+          "Isometric icon sets with adjustable stroke",
+          "UX of AI for AI design patterns",
+          "Shopify's free stock photos"
+        ],
+        "cards": [
+          {
+            "q": "Where to find micro-interaction inspiration?",
+            "a": "Design Spells."
+          }
+        ],
+        "concepts": [
+          "Typography",
+          "Components",
+          "Dashboards"
+        ],
+        "addedAt": 1790000000040
+      },
+      {
+        "id": "6CC8lLnqa28",
+        "title": "6 Things You Probably Need to Hear (as a web designer)",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 478,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Mindset: iterate, find better colour sources, fewer elements, mood boards.",
+        "pts": [
+          "Early work is imperfect; quantity breeds quality",
+          "Pull colours from nature, art and pickers",
+          "Portfolio work you'd proudly share",
+          "Fewer elements, one main CTA (Google, Apple)",
+          "Simple beats 3D (Linear)",
+          "Mood board before designing"
+        ],
+        "cards": [
+          {
+            "q": "What to do before opening Figma?",
+            "a": "Make a mood board from Dribbble/Behance."
+          }
+        ],
+        "concepts": [
+          "Colour",
+          "Presentation",
+          "Career"
+        ],
+        "addedAt": 1790000000041
+      },
+      {
+        "id": "jSxxAFxjxbU",
+        "title": "I spent a week gamifying apps. This is what I built",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 532,
+        "level": "bonus",
+        "kind": "hands-on",
+        "sum": "Gamification principles from Duolingo applied to a finance app.",
+        "pts": [
+          "Five levers: currency (XP), visible progress, social comparison, meaningful rewards, streaks/penalties",
+          "Duolingo: lessons + challenges → XP → quest chests → gems",
+          "Hearts punish mistakes; streaks + notifications",
+          "Finance app tabs: goals, leaderboard, analytics, education",
+          "Colour to flag overspending; quizzes earn points"
+        ],
+        "cards": [
+          {
+            "q": "Five gamification levers?",
+            "a": "Currency, visible progress, social comparison, meaningful rewards, streaks/penalties."
+          }
+        ],
+        "concepts": [
+          "Colour"
+        ],
+        "addedAt": 1790000000042
+      },
+      {
+        "id": "ixUq4HM4FNg",
+        "title": "TikTok's UX is so GOOD it should be ILLEGAL",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 377,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Why TikTok works: fewer choices, less friction, instant feedback.",
+        "pts": [
+          "Hick's Law: fewer choices = faster decisions",
+          "Removes friction: content starts instantly",
+          "Low cognitive load: one item on screen",
+          "The algorithm learns from behaviour, not settings",
+          "Short content + immediate feedback"
+        ],
+        "cards": [
+          {
+            "q": "What does Hick's Law say?",
+            "a": "More choices mean slower decisions; reduce options."
+          }
+        ],
+        "concepts": [
+          "UX thinking",
+          "Interaction & states"
+        ],
+        "addedAt": 1790000000043
+      },
+      {
+        "id": "BUDipdbKK7Y",
+        "title": "I Made The Most UNHINGED UI Upgrades (downgrades?)",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 289,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Comedy tour of dark patterns; learn what not to do.",
+        "pts": [
+          "Guilt-trip notifications",
+          "Aggressive paywalls",
+          "Passive-aggressive copy",
+          "Forced workflows",
+          "Random 'choices'",
+          "Streak punishments"
+        ],
+        "cards": [
+          {
+            "q": "Why study dark patterns?",
+            "a": "To recognise and avoid manipulative UX."
+          }
+        ],
+        "concepts": [
+          "UX thinking"
+        ],
+        "addedAt": 1790000000044
+      },
+      {
+        "id": "A_Ozpb0XDuw",
+        "title": "How hard is it to REALLY make a no-code 3D animated website?",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 296,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "3D sites with Spline and Blender; Figma only for the SVG logo.",
+        "pts": [
+          "Spline for interactive 3D without code",
+          "Blender for heavier modelling",
+          "Build the logo in Figma, export SVG",
+          "Keep 3D light for performance"
+        ],
+        "cards": [
+          {
+            "q": "No-code 3D tool used?",
+            "a": "Spline."
+          }
+        ],
+        "concepts": [
+          "Motion & prototyping"
+        ],
+        "addedAt": 1790000000045
+      },
+      {
+        "id": "d4MF6pdAZNw",
+        "title": "Developing Premium Load animations (HTML, CSS & JS): Part 2",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 1218,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Coding the Level-8 Figma load animation with GSAP.",
+        "pts": [
+          "Fixed full-screen loader, flex-centred",
+          "GSAP timeline with .to() / .from()",
+          "ease 'expo.inOut' to match Figma béziers",
+          "'<' to start tweens together",
+          "stagger: 0.2 for sequences",
+          "Text wipe: width 0→100% with opacity"
+        ],
+        "cards": [
+          {
+            "q": "GSAP easing matching his Figma curve?",
+            "a": "expo.inOut."
+          }
+        ],
+        "concepts": [
+          "Motion & prototyping"
+        ],
+        "addedAt": 1790000000046
+      },
+      {
+        "id": "5JxUJ1fuyO8",
+        "title": "Make ONE Design Change to Actually Land Clients",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 475,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Sell outcomes, not pretty pixels.",
+        "pts": [
+          "Solve the client's problem",
+          "Users judge UX; clients judge UI",
+          "Niche down",
+          "Add SEO, CRO, retainers",
+          "Case studies with numbers",
+          "Aesthetic-usability effect"
+        ],
+        "cards": [
+          {
+            "q": "What should case studies include to win clients?",
+            "a": "Numerical results."
+          }
+        ],
+        "concepts": [
+          "Career",
+          "UX thinking",
+          "Visual effects"
+        ],
+        "addedAt": 1790000000047
+      },
+      {
+        "id": "2rtsoM2Dqrs",
+        "title": "How To Price Website Designs",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 260,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Hourly, project and value-based pricing.",
+        "pts": [
+          "Hourly (US): $20–30 junior, $35–50 established, up to $100 senior",
+          "Project price = hours × rate, incl. meetings and revisions",
+          "Multiply by 1–2× for complexity",
+          "Value-based: 5–10% of added revenue",
+          "Things take longer than you think"
+        ],
+        "cards": [
+          {
+            "q": "Value-based pricing share?",
+            "a": "5–10% of the extra revenue your design creates."
+          }
+        ],
+        "concepts": [
+          "Career",
+          "Components"
+        ],
+        "addedAt": 1790000000048
+      },
+      {
+        "id": "59XWYgN00nQ",
+        "title": "Create A Portfolio With No Experience",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 150,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Fake briefs, a niche, real copy, 3–4 strong pieces.",
+        "pts": [
+          "Use brief generators (Good Brief, Sharpen)",
+          "Pick a niche",
+          "No lorem ipsum",
+          "Dribbble for UI, Behance for case studies",
+          "3–4 pieces or 2–3 case studies"
+        ],
+        "cards": [
+          {
+            "q": "How many portfolio pieces?",
+            "a": "3–4 interface pieces, or 2–3 case studies."
+          }
+        ],
+        "concepts": [
+          "Career",
+          "Presentation"
+        ],
+        "addedAt": 1790000000049
+      },
+      {
+        "id": "t7mpEDXzjCg",
+        "title": "Make A Perfect UX Case Study In 8 Steps",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 637,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "Problem, personas, flows, wireframes, final, reflection, storytelling.",
+        "pts": [
+          "Problem + solution snapshot up top",
+          "Visual first: images and GIFs",
+          "Personas: goals and frustrations",
+          "User flows with clear shapes/colours",
+          "Low-fi wireframes showing iteration",
+          "Final designs with reasoning",
+          "Reflection; concise, skimmable storytelling"
+        ],
+        "cards": [
+          {
+            "q": "What opens a strong case study?",
+            "a": "The problem and a snapshot of the solution."
+          }
+        ],
+        "concepts": [
+          "UX thinking",
+          "Colour",
+          "Presentation"
+        ],
+        "addedAt": 1790000000050
+      },
+      {
+        "id": "ToJiXPTNnLY",
+        "title": "Professional Portfolio Breakdown",
+        "channelId": "UCR6MXpfFWbOpNlxuhWCBV_A",
+        "channelTitle": "Kole Jain",
+        "secs": 427,
+        "level": "bonus",
+        "kind": "concept",
+        "sum": "What great portfolios do above the fold.",
+        "pts": [
+          "Headshot above the fold",
+          "Name + role intro, no fluff",
+          "2–3 pages max",
+          "Big imagery",
+          "Visual case studies with GIFs",
+          "Honest about page"
+        ],
+        "cards": [
+          {
+            "q": "Max pages for a portfolio site?",
+            "a": "2–3."
+          }
+        ],
+        "concepts": [
+          "Career",
+          "Presentation",
+          "Mobile"
+        ],
+        "addedAt": 1790000000051
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "s1",
+        "concepts": [
+          "Dashboards",
+          "Components",
+          "Layout & spacing"
+        ],
+        "prompt": "A fintech client wants an admin dashboard for their support team. It shows open tickets, response times and a customer list. Describe the layout you'd build in Figma and the four core components you'd rely on.",
+        "model": "Sidebar as the spine (grouped links, settings/help at bottom), one primary function in focus, KPI cards for open tickets and response time top-left, a simple line/bar chart with grid lines and a date picker, and a searchable, sortable table with right-aligned numbers and status chips. Core components: tables/lists, cards, inputs, tabs. Popovers for light actions, modals for blocking ones, toasts for alerts; optimistic UI for snappy actions."
+      },
+      {
+        "id": "s2",
+        "concepts": [
+          "Colour"
+        ],
+        "prompt": "Your product's dark mode looks muddy and cards blend into the background. What would you change in the colour system?",
+        "model": "Don't invert light mode. Double the distance between neutral steps (≈4–6% apart), make cards slightly lighter than the background, lower border contrast, desaturate chips, avoid pure black, and keep the accent as a scale (500–600 primary, 700 hover)."
+      },
+      {
+        "id": "s3",
+        "concepts": [
+          "Typography",
+          "Layout & spacing"
+        ],
+        "prompt": "A landing page headline at 80px looks amateur and the hero feels cramped. Give three specific fixes with values.",
+        "model": "Tighten letter-spacing to about −2% to −4% at that size, set heading line-height to 110–120%, and use grouping spacing: subtext ~8px under the header, eyebrow ~12px above, buttons ~32px below. Limit to 1–2 fonts and use a type scale (×1.25 or golden 1.62)."
+      },
+      {
+        "id": "s4",
+        "concepts": [
+          "Motion & prototyping",
+          "Interaction & states"
+        ],
+        "prompt": "The PM wants the sidebar to feel premium: items should slide in on hover and a loader should play after an action. How do you prototype this in Figma?",
+        "model": "Duplicate frames for each state, keep layer names identical so Smart Animate tweens them, start hidden layers at 0% opacity and offset a few px, use 'While hovering' triggers, chain frames with short after-delays (~300ms), and use a spring (≈ stiffness 550, damping 40). Blur the background (~24px) for focus states."
+      },
+      {
+        "id": "s5",
+        "concepts": [
+          "Mobile",
+          "UX thinking"
+        ],
+        "prompt": "You're designing a habit-tracker mobile app. List the navigation and layout rules you'd follow for the home and detail screens.",
+        "model": "Bottom tab bar with 3–4 items (max 5), 44px touch targets, 17px body text, one scroll direction per section, one screen does one thing, no double-nested cards, hide the tab bar in detail views, bottom sheets for quick actions, swipe-back gesture, and full-screen empty states for new users."
+      },
+      {
+        "id": "s6",
+        "concepts": [
+          "Components",
+          "Interaction & states"
+        ],
+        "prompt": "A developer says your button spec is incomplete. What states and details should the button component include?",
+        "model": "Variants for default, hover (slightly lighter), pressed (slightly darker), disabled (desaturated grey with white text), loading (spinner, greyed), and focus. Consistent radius, padding width roughly double the height, primary filled vs secondary ghost/outline."
+      },
+      {
+        "id": "s7",
+        "concepts": [
+          "UX thinking",
+          "Layout & spacing"
+        ],
+        "prompt": "A SaaS landing page feels like sections dropped on top of each other and people bounce. How would you level it up?",
+        "model": "Stacked hero with real product imagery, outline secondary CTA, logo wall, zoom into key product areas, bento grid for features, copy about how it helps not what it does, colour woven through, break the box with overlaps, subtle load/scroll motion, and apply the 5-second test per section."
+      },
+      {
+        "id": "s8",
+        "concepts": [
+          "Presentation"
+        ],
+        "prompt": "You need to present a finished dashboard to a client tomorrow. How do you make the presentation sell the design?",
+        "model": "Dark, desaturated background or subtle glow, skewed hero shot (~2° vertical, −14° horizontal) with offset shadow, zoomed crops of key sections instead of full screens, device mockups, and a clickable prototype showing real interactions."
+      }
+    ]
+  }
+}
